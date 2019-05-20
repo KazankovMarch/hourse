@@ -1,3 +1,4 @@
+
 package ru.adkazankov.hourse.model;
 
 import org.junit.Test;
