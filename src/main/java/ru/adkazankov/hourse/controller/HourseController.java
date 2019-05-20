@@ -34,4 +34,9 @@ public class HourseController {
     public void setChessPieceService(ChessPieceService chessPieceService) {
         this.chessPieceService = chessPieceService;
     }
+
+    @Autowired
+    public void setHourse(Hourse hourse) {
+        this.hourse = hourse;
+    }
 }

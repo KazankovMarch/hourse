@@ -19,7 +19,21 @@ public class Position {
     }
 
     public static Position of(String view){
-        return null;
+        int i = 0;
+        while (Character.isAlphabetic(view.charAt(i)))
+            i++;
+        int x = getExcelColumnNumber(view.substring(0, i)) - 1;
+        int y = Integer.parseInt(view.substring(i)) - 1;
+        return new Position(x,y);
+    }
+
+    private static int getExcelColumnNumber(String column) {
+        int result = 0;
+        for (int i = 0; i < column.length(); i++) {
+            result *= 26;
+            result += column.charAt(i) - 'A' + 1;
+        }
+        return result;
     }
 
     @Override
