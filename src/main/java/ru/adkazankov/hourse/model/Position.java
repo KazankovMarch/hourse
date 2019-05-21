@@ -3,6 +3,7 @@ package ru.adkazankov.hourse.model;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @AllArgsConstructor
 @Getter

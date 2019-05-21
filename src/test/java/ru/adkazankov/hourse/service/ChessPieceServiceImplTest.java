@@ -1,12 +1,17 @@
 package ru.adkazankov.hourse.service;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.TestComponent;
+import org.springframework.test.context.junit4.SpringRunner;
 import ru.adkazankov.hourse.model.ChessBoard;
 import ru.adkazankov.hourse.model.Hourse;
 import ru.adkazankov.hourse.model.Position;
 import ru.adkazankov.hourse.model.SquareChessBoard;
 
 import static org.junit.Assert.*;
+
 
 public class ChessPieceServiceImplTest extends ChessPieceServiceImpl {
 

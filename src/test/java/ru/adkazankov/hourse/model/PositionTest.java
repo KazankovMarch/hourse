@@ -2,8 +2,13 @@
 package ru.adkazankov.hourse.model;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.TestComponent;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.*;
+
 
 public class PositionTest {
 
